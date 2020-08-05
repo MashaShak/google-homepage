@@ -1,0 +1,119 @@
+
+* {
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    margin: 0;
+}
+.nav {
+    font-size: 13px;
+    list-style: none;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.nav ul, li {
+    display: inline-block;
+    padding-inline-start: 0;
+    align-items: center;
+}
+.content {
+    padding: 15px;   
+    text-align:center;
+                
+}
+.nav.material-icons {
+    padding-top: 50px;
+}
+.content img {
+    text-align: center;
+    margin-top: 80px;
+    padding:30px;
+    width: 280px
+}
+.srchin {
+    display: inline-block;
+}
+a {
+    color: rgba(0,0,0,0.87);
+    font-size: 13px;
+    text-decoration: none;
+    padding: 7px;
+    color: #000;
+    opacity: 0.75;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: rgba(0,0,0,0.87);
+}
+#signin {
+    background-color: rgb(66, 133, 244); 
+    color: white;
+    border-radius: 2px;
+    padding-right: 12px;
+    padding-left: 12px;
+
+}
+#signin:hover {
+    text-decoration: none;
+}
+.srch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:center;
+    height:44px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px; 
+    width: 582px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+.srch:hover, .srch:focus {
+   box-shadow: 0 0 5px 2px #dfe1e5;
+}
+
+.srch input {
+   
+    border: none;
+    background-color: transparent;
+    width: 400px;
+    outline: none;
+}
+
+#btn {
+    height: 90px;
+}
+
+button {
+    border: none;
+    font-size: 14px;
+    margin: 25px 5px 25px 5px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 4px;
+    opacity: 0.55;
+}
+button:hover {
+    opacity: 1;
+    border-style: solid;
+    border-color: grey;
+    border-width: 1px;
+}
+.footer {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+.footer a {
+    color:rgb(95, 99, 104);
+    font-size: 14px;
+}
